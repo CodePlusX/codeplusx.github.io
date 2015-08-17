@@ -6,7 +6,7 @@
   <title>{{ site.name }}{% if page.title %} - {{ page.title }}{% endif %}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
   <meta property="og:url" content="{{ site.baseurl | prepend: site.url}}"/>
-  <meta property="og:site_name" content="{{ site.title }}"/> 
+  <meta property="og:site_name" content="{{ site.name }}"/> 
   {% if page.title %}<meta property="og:title" content="{{ page.title }}"/>{% endif %} 
   <meta property="og:description" content="{{ site.description }}"/> 
   <meta property="og:image" content="{{"/favicon.png" | prepend: site.baseurl | prepend: site.url}}"/>
