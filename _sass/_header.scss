@@ -54,14 +54,14 @@
     li {
       display: inline-block;
       
-      @media screen and (max-width: 799px) {
+      @media screen and (max-width: 339px) {
         margin-bottom: 1em;
       }
 
       + li {
         margin-left:1em;
       }
-      @media screen and (max-width: 799px) {
+      @media screen and (max-width: 339px) {
         &:last-of-type {
           margin-bottom: 0;
         }
