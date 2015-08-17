@@ -1,0 +1,52 @@
+input[type="submit"], .button {
+  -webkit-appearance: none;
+  background: $green;
+  border-radius: 4px;
+  border: 0;
+  color: $white;
+  cursor: pointer;
+  display: inline-block;
+  font-family: $display-font;
+  font-size: 1em;
+  line-height: 1em;
+  padding: 16px 18px;
+  text-decoration: none;
+  transition: .2s all;
+  text-align: center;
+
+  &:visited {
+    color:$white;
+  }
+
+  &:hover {
+    background: $greenL1;
+    text-decoration: none;
+  }
+
+  &:active {
+    background: $greenD1;
+    color: $grayL1;
+  }
+
+  &:focus {
+    outline: none;
+  }
+
+  &[disabled] {
+    background-color: $grayD2;
+    margin-bottom:0;
+    margin-left:0;
+    margin-top:5px;
+    box-shadow: none;
+    color: $grayL1;
+  }
+}
+
+.button-block {
+  display: block;
+  width: 100%;
+}
+
+input[type="submit"] {
+  @extend .button-block;
+}
