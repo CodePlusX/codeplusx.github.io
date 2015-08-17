@@ -1,3 +1,5 @@
 name: Code + X
 markdown: redcarpet
 pygments: true
+description: "Code + X helps people combine programming with other skills. We create tutorial videos & host events that encourage people to work with tech."
+url: "http://codeplusx.com" # the base hostname & protocol for your site
